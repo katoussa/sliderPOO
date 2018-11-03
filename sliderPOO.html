@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="localiser les vélos à louer sur une carte de Lyon, 
+        visualisez les disponibilités et réservez le votre.">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="sliderPOO.css">
+        <title>slider en POO Javascript</title>
+    </head>
+
+    <body>
+        <div id="slider" class="slider">
+            <ul id="slideshow" class="slideshow">  
+                <li class="slide active">
+                    <img src="https://cdn.pixabay.com/photo/2018/03/15/10/35/website-3227784_960_720.jpg" alt=""/>
+                </li>
+                <li class="slide">
+                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076533_960_720.jpg" alt=""/>
+                </li>
+                <li class="slide">
+                    <img src="https://cdn.pixabay.com/photo/2018/02/26/06/20/software-developer-3182374_960_720.jpg" alt=""/>
+                </li>
+                <li class="slide">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2v8cTWgFic6IcZt5AgbG7sBcVuB5fmsEi0KtzDudFC8zQCbuJ" alt=""/>
+                </li>
+                <li class="slide">
+                    <img src="https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_960_720.png" alt=""/>
+                </li>
+                <li class="slide">
+                    <img src="https://cdn.pixabay.com/photo/2018/05/11/09/02/technology-3389904_960_720.jpg" alt=""/>
+                </li>
+                <li class="slide">
+                    <img src="https://cdn.pixabay.com/photo/2018/06/07/12/26/programming-3460032_960_720.jpg" alt=""/>
+                </li>
+            </ul>
+        </div>
+        <div class="button">
+            <button id="prevBtn" class="prevBtn" onclick="prevOnclick()">Prev</button>
+            <button id="pauseBtn" class="pauseBtn" onclick="playPause()">Pause</button>
+            <button id="nextBtn" class="nextBtn" onclick="nextOnclick()">Next</button>
+        </div>
+        <script src="sliderPOO.js"></script>
+    </body>
+</html>
+
